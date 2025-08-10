@@ -1,11 +1,13 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yosra Ziad - Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-  
 </head>
 <body>
     <!-- Sidebar Navigation -->
@@ -19,19 +21,19 @@
             <li><a href="#about" class="nav-link">ABOUT</a></li>
             <li><a href="#services" class="nav-link">SERVICES</a></li>
             <li><a href="#works" class="nav-link">WORKS</a></li>
-            <li><a href="#skills" class="nav-link">SKILLS</a></li> <!-- Updated -->
+            <li><a href="#skills" class="nav-link">SKILLS</a></li>
             <li><a href="#contact" class="nav-link">CONTACT</a></li>
         </ul>
         
         <div class="social-links">
             <a href="#" class="social-link" aria-label="Facebook" title="Facebook">
-                <div class="social-icon">f</div>
+                <i class="fab fa-facebook-f"></i>
             </a>
             <a href="#" class="social-link" aria-label="GitHub" title="GitHub">
-                <div class="social-icon">GH</div>
+                <i class="fab fa-github"></i>
             </a>
             <a href="#" class="social-link" aria-label="LinkedIn" title="LinkedIn">
-                <div class="social-icon">in</div>
+                <i class="fab fa-linkedin-in"></i>
             </a>
         </div>
         
@@ -40,46 +42,51 @@
         </div>
     </nav>
 
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
     <!-- Main Content -->
     <main class="main-content">
         <!-- Home Section -->
         <section id="home" class="section home-section active">
             <div class="home-content">
                 <div class="hero-text">
-                    <h2 class="hero-title">
+                    <h2 class="hero-title animate__animated animate__fadeInDown">
                         MY NAME<br>
                         IS Yosra <br>
                         Ziad...
                     </h2>
-                    <p class="hero-subtitle">
+                    <p class="hero-subtitle animate__animated animate__fadeInDown animate__delay-1s">
                         <strong>Web Developer</strong> based in <strong>Yemen</strong>
                     </p>
-                    <button class="cta-button">Let's talk with me 🚀</button>
-                    <div class="contact-info">
+                    <button class="cta-button animate__animated animate__fadeInUp animate__delay-2s">Let's talk with me 🚀</button>
+                    <div class="contact-info animate__animated animate__fadeInUp animate__delay-2s">
                         <div class="contact-item">
-                            <span class="contact-icon">📞</span>
+                            <span class="contact-icon"><i class="fas fa-phone"></i></span>
                             <span>+77 022 444 05 05</span>
                         </div>
                         <div class="contact-item">
-                            <span class="contact-icon">✉️</span>
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
                             <span>jacob360@gmail.com</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="hero-image">
-                    <img src="images/profile.png" alt="Jacob Jones" class="hero-person">
+                <div class="hero-image animate__animated animate__fadeInRight">
+                    <img src="images/profile.png" alt="Yosra Ziad" class="hero-person">
                 </div>
                 
                 <div class="home-social-links">
                     <a href="#" class="social-link" aria-label="Facebook" title="Facebook">
-                        <div class="social-icon">f</div>
+                        <i class="fab fa-facebook-f"></i>
                     </a>
                     <a href="#" class="social-link" aria-label="GitHub" title="GitHub">
-                        <div class="social-icon">GH</div>
+                        <i class="fab fa-github"></i>
                     </a>
                     <a href="#" class="social-link" aria-label="LinkedIn" title="LinkedIn">
-                        <div class="social-icon">in</div>
+                        <i class="fab fa-linkedin-in"></i>
                     </a>
                 </div>
             </div>
@@ -93,33 +100,34 @@
             </div>
             
             <div class="about-content">
-                <div class="about-left">
+                <div class="about-left animate__animated animate__fadeInLeft">
                     <div class="profile-card">
-                    <div class="profile-image"><img src="images/profile.png" alt="Jacob Jones" class="hero-person">
-                       </div>
-                        <h3 class="profile-name">JACOB JONES</h3>
-                        <p class="profile-title">Product Designer based in <strong>London</strong></p>
+                        <div class="profile-image">
+                            <img src="images/profile.png" alt="Yosra Ziad" class="hero-person">
+                        </div>
+                        <h3 class="profile-name">YOSRA ZIAD</h3>
+                        <p class="profile-title">Web Developer based in <strong>Yemen</strong></p>
                         <button class="download-cv">Download CV 🚀</button>
                     </div>
                 </div>
                 
-                <div class="about-right">
+                <div class="about-right animate__animated animate__fadeInRight">
                     <div class="about-info">
                         <div class="info-item">
-                            <span class="info-icon">📞</span>
+                            <span class="info-icon"><i class="fas fa-phone"></i></span>
                             <span>+77 022 444 05 05</span>
                         </div>
                         <div class="info-item">
-                            <span class="info-icon">🎂</span>
+                            <span class="info-icon"><i class="fas fa-birthday-cake"></i></span>
                             <span>25 yrs</span>
                         </div>
                         <div class="info-item">
-                            <span class="info-icon">✉️</span>
+                            <span class="info-icon"><i class="fas fa-envelope"></i></span>
                             <span>jacob360@gmail.com</span>
                         </div>
                         <div class="info-item">
-                            <span class="info-icon">📍</span>
-                            <span>United Kingdom, London</span>
+                            <span class="info-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>Yemen, Sana'a</span>
                         </div>
                     </div>
                     
@@ -127,12 +135,12 @@
                         <div class="stat-item">
                             <span class="stat-number">10+</span>
                             <span class="stat-label">Years Experience...</span>
-                            <p>Hello there! My name is Jacob Jones. I am a web designer & developer, and I'm very passionate and dedicated to my work.</p>
+                            <p>Hello there! My name is Yosra Ziad. I am a web designer & developer, and I'm very passionate and dedicated to my work.</p>
                         </div>
                         <div class="stat-item">
                             <span class="stat-number">14</span>
                             <span class="stat-label">Clients Worldwide...</span>
-                            <p>With 10+ years experience as a professional a graphic designer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+                            <p>With 10+ years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
                         </div>
                     </div>
                     
@@ -143,14 +151,14 @@
             </div>
             
             <div class="experience-section">
-                <div class="experience-left">
+                <div class="experience-left animate__animated animate__fadeInLeft">
                     <span class="section-label">Experience</span>
                     <h3>MY EXPERIENCE</h3>
-                    <p>Hello there! My name is Jacob Jones. I am a web designer & developer, and I'm very passionate and dedicated to my work.</p>
+                    <p>Hello there! My name is Yosra Ziad. I am a web designer & developer, and I'm very passionate and dedicated to my work.</p>
                     <button class="download-resume">Download my resume 🚀</button>
                 </div>
                 
-                <div class="experience-right">
+                <div class="experience-right animate__animated animate__fadeInRight">
                     <div class="timeline">
                         <div class="timeline-item">
                             <span class="timeline-period">~2018 - Present</span>
@@ -200,10 +208,10 @@
                     </div>
                 </div>
                 
-                <div class="service-item active">
+                <div class="service-item">
                     <div class="service-header">
                         <h3>MOBILE APPLICATION</h3>
-                        <span class="service-toggle">−</span>
+                        <span class="service-toggle">+</span>
                     </div>
                     <div class="service-content">
                         <div class="service-image"></div>
@@ -231,7 +239,7 @@
             </div>
             
             <div class="projects-grid">
-                <div class="project-item">
+                <div class="project-item animate__animated">
                     <div class="project-image project-1"></div>
                     <div class="project-info">
                         <span class="project-type">UX case study</span>
@@ -240,7 +248,7 @@
                     </div>
                 </div>
                 
-                <div class="project-item">
+                <div class="project-item animate__animated">
                     <div class="project-image project-2"></div>
                     <div class="project-info">
                         <span class="project-type">UX case study</span>
@@ -249,7 +257,7 @@
                     </div>
                 </div>
                 
-                <div class="project-item">
+                <div class="project-item animate__animated">
                     <div class="project-image project-3"></div>
                     <div class="project-info">
                         <span class="project-type">UX case study</span>
@@ -258,7 +266,7 @@
                     </div>
                 </div>
                 
-                <div class="project-item">
+                <div class="project-item animate__animated">
                     <div class="project-image project-4"></div>
                     <div class="project-info">
                         <span class="project-type">UX case study</span>
@@ -308,18 +316,18 @@
             
             <div class="skills-content">
                 <div class="skills-grid">
-                    <div class="skill-card">
-                        <div class="skill-icon">🖌️</div>
+                    <div class="skill-card animate__animated">
+                        <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
                         <h3>Web Design</h3>
                         <p>Lorem ipsum dolor et. adipiscing elit et.</p>
                     </div>
-                    <div class="skill-card">
-                        <div class="skill-icon">💻</div>
+                    <div class="skill-card animate__animated">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
                         <h3>Frontend Development</h3>
                         <p>Lorem ipsum dolor en. adipiscing elit.</p>
                     </div>
-                    <div class="skill-card">
-                        <div class="skill-icon">⚙️</div>
+                    <div class="skill-card animate__animated">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
                         <h3>Backend Development</h3>
                         <p>Lorem ipsum dolor en. adipiscing elit.</p>
                     </div>
@@ -357,7 +365,7 @@
 
         <!-- Contact Section -->
         <section id="contact" class="section contact-section">
-            <div class="contact-left">
+            <div class="contact-left animate__animated animate__fadeInLeft">
                 <div class="section-header">
                     <span class="section-label">Contact</span>
                     <h2 class="section-title">REACH OUT ME</h2>
@@ -370,20 +378,20 @@
                     </address>
                     
                     <div class="contact-info">
-                        <p class="phone">+77 022 444 05 05</p>
-                        <p class="email">jacob360@gmail.com</p>
+                        <p class="phone"><i class="fas fa-phone"></i> +77 022 444 05 05</p>
+                        <p class="email"><i class="fas fa-envelope"></i> jacob360@gmail.com</p>
                     </div>
                     
                     <div class="social-media">
-                        <a href="#">FACEBOOK</a>
-                        <a href="#">TWITTER</a>
-                        <a href="#">INSTAGRAM</a>
-                        <a href="#">LINKEDIN</a>
+                        <a href="#"><i class="fab fa-facebook-f"></i> FACEBOOK</a>
+                        <a href="#"><i class="fab fa-twitter"></i> TWITTER</a>
+                        <a href="#"><i class="fab fa-instagram"></i> INSTAGRAM</a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i> LINKEDIN</a>
                     </div>
                 </div>
             </div>
             
-            <div class="contact-right">
+            <div class="contact-right animate__animated animate__fadeInRight">
                 <div class="contact-form-container">
                     <h3>ANY PROJECT?</h3>
                     
@@ -396,7 +404,7 @@
                         <textarea placeholder="MESSAGE" required></textarea>
                         
                         <div class="file-upload">
-                            <span>📎 ATTACH FILE</span>
+                            <i class="fas fa-paperclip"></i> ATTACH FILE
                         </div>
                         
                         <button type="submit" class="submit-btn">Submit now 🚀</button>
@@ -409,5 +417,4 @@
     <script src="js/script.js"></script>
 </body>
 </html>
-
 

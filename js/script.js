@@ -1,3 +1,4 @@
+// js\script.js
 // JavaScript for Jacob Portfolio Website
 
 document.addEventListener('DOMContentLoaded', function() {
