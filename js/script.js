@@ -53,8 +53,10 @@ function initNavigation() {
       }
 
       // Close mobile menu if open
-      const sidebar = document.querySelector(".sidebar");
-      sidebar.classList.remove("open");
+  const sidebar = document.querySelector(".sidebar");
+  const toggles = document.querySelectorAll(".mobile-menu-toggle");
+  sidebar.classList.remove("open");
+  toggles.forEach(btn => btn.innerHTML = "☰");
     });
   });
 }
