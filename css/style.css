@@ -232,7 +232,7 @@ body {
 
 .section {
   min-height: 100vh;
-  padding: var(--spacing-2xl);
+  padding: var(--spacing-xl);
   display: none;
 
   transition: opacity 0.5s ease;
@@ -444,17 +444,21 @@ body {
 /* About Section */
 .about-section {
   background-color: var(--secondary-bg);
-  padding: var(--spacing-3xl) var(--spacing-2xl);
+  /* padding: var(--spacing-3xl) var(--spacing-2xl); */
+  /* display: flex;
+  align-items: center;
+  position: relative; */
+  /* overflow: hidden; */
 }
 
 .section-header {
   text-align: center;
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-sm);
 }
 
 .section-label {
   font-size: var(--font-size-sm);
-  color: var(--text-gray);
+  color: var(--text-white);
   font-style: italic;
   display: block;
   margin-bottom: var(--spacing-xs);
@@ -471,7 +475,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: var(--spacing-2xl);
-  margin-bottom: var(--spacing-3xl);
+  /* margin-bottom: var(--spacing-3xl); */
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -480,7 +484,7 @@ body {
 .profile-card {
   text-align: center;
   background-color: var(--text-white);
-  padding: var(--spacing-xl);
+  padding: var(--spacing-xl)  var(--spacing-lg);
   border-radius: var(--border-radius-lg);
   box-shadow: var(--shadow-md);
   transition: var(--transition);
@@ -547,7 +551,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-md);
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-sm);
 }
 
 .info-item {
@@ -569,7 +573,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-xl);
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-sm);
 }
 
 .stat-number {
@@ -615,7 +619,7 @@ body {
 .experience-section {
   background: var(--gradient-secondary);
   color: var(--text-white);
-  padding: var(--spacing-3xl);
+  padding: var(--spacing-xl)  var(--spacing-lg);
   border-radius: var(--border-radius-lg);
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -690,7 +694,7 @@ body {
 /* Services Section */
 .services-section {
   background-color: var(--secondary-bg);
-  padding: var(--spacing-3xl) var(--spacing-2xl);
+  /* padding: var(--spacing-3xl) var(--spacing-2xl); */
 }
 
 .services-list {
@@ -763,7 +767,7 @@ body {
 /* Works Section */
 .works-section {
   background-color: var(--secondary-bg);
-  padding: var(--spacing-3xl) var(--spacing-2xl);
+  /* padding: var(--spacing-3xl) var(--spacing-2xl); */
 }
 
 .projects-grid {
@@ -964,7 +968,7 @@ body {
 /* Skills Section */
 .skills-section {
   background-color: var(--secondary-bg);
-  padding: var(--spacing-3xl) var(--spacing-2xl);
+  /* padding: var(--spacing-3xl) var(--spacing-2xl); */
 }
 
 .skills-grid {
@@ -1111,7 +1115,7 @@ body {
 /* Contact Section */
 .contact-section {
   background-color: var(--secondary-bg);
-  padding: var(--spacing-3xl) var(--spacing-2xl);
+  /* padding: var(--spacing-3xl) var(--spacing-2xl); */
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-2xl);
