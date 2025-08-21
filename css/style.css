@@ -1341,10 +1341,16 @@ body {
     padding: var(--spacing-xl) var(--spacing-md);
   }
 
+
   .hero-title {
     font-size: var(--font-size-3xl);
   }
-
+  .contact-info.align-left {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
   .stats {
     grid-template-columns: 1fr;
   }
