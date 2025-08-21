@@ -27,11 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Navigation between sections
 function initNavigation() {
   const navLinks = document.querySelectorAll(".nav-link");
-  const sections = document.querySelectorAll(".section");
-
-  // Hide all sections initially
-  sections.forEach((section) => section.classList.remove("active"));
-
+  // لم نعد بحاجة لإخفاء أو إظهار الأقسام
   navLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
@@ -42,21 +38,21 @@ function initNavigation() {
       // Add active class to clicked nav link
       this.classList.add("active");
 
-      // Hide all sections
-      sections.forEach((section) => section.classList.remove("active"));
-
-      // Show target section
+      // Scroll to target section
       const targetId = this.getAttribute("href").substring(1);
       const targetSection = document.getElementById(targetId);
       if (targetSection) {
-        targetSection.classList.add("active");
+        targetSection.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
       }
 
       // Close mobile menu if open
-  const sidebar = document.querySelector(".sidebar");
-  const toggles = document.querySelectorAll(".mobile-menu-toggle");
-  sidebar.classList.remove("open");
-  toggles.forEach(btn => btn.innerHTML = "☰");
+      const sidebar = document.querySelector(".sidebar");
+      const toggles = document.querySelectorAll(".mobile-menu-toggle");
+      sidebar.classList.remove("open");
+      toggles.forEach(btn => btn.innerHTML = "☰");
     });
   });
 }
@@ -500,6 +496,10 @@ function initThemeSwitch() {
   });
 }
 
+// Initialize theme switch
+document.addEventListener("DOMContentLoaded", function () {
+  initThemeSwitch();
+});
 // Initialize theme switch
 document.addEventListener("DOMContentLoaded", function () {
   initThemeSwitch();

@@ -233,13 +233,13 @@ body {
 .section {
   min-height: 100vh;
   padding: var(--spacing-xl);
-  display: none;
+  /* display: none; */
 
   transition: opacity 0.5s ease;
 }
 
 .section.active {
-  display: block;
+  /* display: block; */
   animation: fadeIn 0.5s ease-out;
 }
 
@@ -1140,7 +1140,7 @@ body {
 
 .phone,
 .email {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
   color: var(--text-dark);
   margin-bottom: var(--spacing-sm);
