@@ -203,8 +203,8 @@
 
         <div class="experience-section">
           <div class="experience-left animate__animated animate__fadeInLeft">
-            <span class="section-label">Experience</span>
-            <h3>MY EXPERIENCE</h3>
+            <span class="section-label">Experience & Education</span>
+            <h3>MY JOURNEY</h3>
             <p>
               Computer Science graduate with professional experience in full-stack development 
               and a passion for creating efficient, user-friendly web applications.
@@ -218,21 +218,25 @@
                 <span class="timeline-period">2022 - Present</span>
                 <span class="timeline-company">Freelance</span>
                 <h4>FULL-STACK DEVELOPER</h4>
+                <p>Developing web applications for various clients using modern technologies.</p>
               </div>
               <div class="timeline-item">
                 <span class="timeline-period">Jan 2023 - Oct 2023</span>
                 <span class="timeline-company">Ayman Al-Ghammas Storage</span>
                 <h4>LARAVEL PHP DEVELOPER</h4>
+                <p>Developed a custom ERP system for warehousing and cold storage management.</p>
               </div>
               <div class="timeline-item">
                 <span class="timeline-period">2022 - 2023</span>
                 <span class="timeline-company">Wareef Academy</span>
                 <h4>FRONT-END DEVELOPMENT TRAINER</h4>
+                <p>Part-time trainer teaching frontend web development technologies.</p>
               </div>
               <div class="timeline-item">
                 <span class="timeline-period">2016 - 2020</span>
                 <span class="timeline-company">Sana'a University</span>
                 <h4>BACHELOR'S IN COMPUTER SCIENCE</h4>
+                <p>Graduated with a degree in Computer Science.</p>
               </div>
             </div>
           </div>
@@ -256,6 +260,19 @@
               <p>
                 End-to-end web application development using modern technologies like React.js, 
                 Laravel, Node.js, and MySQL to create responsive and efficient solutions.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-header">
+              <h3>ERP SYSTEM DEVELOPMENT</h3>
+              <span class="service-toggle">+</span>
+            </div>
+            <div class="service-content">
+              <p>
+                Custom enterprise resource planning systems tailored to specific business needs, 
+                including inventory management, order processing, and reporting features.
               </p>
             </div>
           </div>
@@ -305,7 +322,7 @@
       <section id="works" class="section works-section">
         <div class="section-header">
           <span class="section-label">Work</span>
-          <h2 class="section-title">RECENT PROJECT</h2>
+          <h2 class="section-title">MY PROJECTS</h2>
         </div>
 
         <div class="projects-grid">
@@ -314,6 +331,12 @@
             <div class="project-info">
               <span class="project-type">ERP System</span>
               <h3>Ayman Al-Ghammas Storage ERP</h3>
+              <p>Custom ERP system for warehousing and cold storage management</p>
+              <div class="project-tech">
+                <span>Laravel</span>
+                <span>React.js</span>
+                <span>MySQL</span>
+              </div>
               <a href="#" class="project-link">↗</a>
             </div>
           </div>
@@ -323,6 +346,12 @@
             <div class="project-info">
               <span class="project-type">E-commerce</span>
               <h3>Online E-Commerce Platform</h3>
+              <p>E-commerce website for laptop sales with modern UI</p>
+              <div class="project-tech">
+                <span>React.js</span>
+                <span>MUI</span>
+                <span>HTML/CSS</span>
+              </div>
               <a href="#" class="project-link">↗</a>
             </div>
           </div>
@@ -332,6 +361,12 @@
             <div class="project-info">
               <span class="project-type">AI Application</span>
               <h3>Gemini Clone App</h3>
+              <p>AI-powered application using Google Gemini API</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>API</span>
+                <span>CSS</span>
+              </div>
               <a href="#" class="project-link">↗</a>
             </div>
           </div>
@@ -341,43 +376,66 @@
             <div class="project-info">
               <span class="project-type">Productivity App</span>
               <h3>To-Do List Web App</h3>
+              <p>Productivity tracking application with performance visualization</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="#" class="project-link">↗</a>
+            </div>
+          </div>
+
+          <div class="project-item animate__animated">
+            <div class="project-image project-5"></div>
+            <div class="project-info">
+              <span class="project-type">Travel Website</span>
+              <h3>Travel-goo Landing Page</h3>
+              <p>UI/UX design implementation for travel website</p>
+              <div class="project-tech">
+                <span>Figma</span>
+                <span>UI/UX</span>
+                <span>Web Design</span>
+              </div>
               <a href="#" class="project-link">↗</a>
             </div>
           </div>
         </div>
 
-        <button class="load-more">Load more 🚀</button>
+        <button class="load-more">View more projects 🚀</button>
 
-        <div class="testimonial-section">
-          <div class="testimonial-content">
-            <span class="section-label">Testimonial</span>
-            <h3>WHAT THEY SAYS</h3>
-
-            <div class="testimonial-card">
-              <div class="testimonial-image">
-                <img src="images/testimonial-1.jpg" alt="Testimonial 1" />
-              </div>
-              <blockquote>
-                "Yosra developed a comprehensive ERP system for our storage business that 
-                significantly improved our operational efficiency and inventory management."
-              </blockquote>
-              <cite>
-                <strong>~Ayman Al-Ghammas</strong><br />
-                Owner, Ayman Al-Ghammas Storage
-              </cite>
-            </div>
-
-            <div class="testimonial-nav">
-              <button class="nav-prev">←</button>
-              <button class="nav-next">→</button>
-            </div>
+        <div class="certificates-section">
+          <div class="section-header">
+            <span class="section-label">Certificates</span>
+            <h3>MY QUALIFICATIONS</h3>
           </div>
 
-          <div class="client-logos">
-            <div class="logo">Ayman Al-Ghammas Storage</div>
-            <div class="logo">Wareef Academy</div>
-            <div class="logo">SEF Academy</div>
-            <div class="logo">ICT</div>
+          <div class="certificates-grid">
+            <div class="certificate-item">
+              <h4>Front-end Web Development Diploma</h4>
+              <p>SEF Academy</p>
+            </div>
+            <div class="certificate-item">
+              <h4>Back-end Web Development Diploma</h4>
+              <p>SEF Academy</p>
+            </div>
+            <div class="certificate-item">
+              <h4>Graphic Designer Certificate</h4>
+              <p>Youth Leadership Preparation Center</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="volunteering-section">
+          <div class="section-header">
+            <span class="section-label">Volunteering</span>
+            <h3>COMMUNITY INVOLVEMENT</h3>
+          </div>
+
+          <div class="volunteering-item">
+            <h4>Frontend Developer</h4>
+            <p class="organization">International Center Team (ICT) - 2019</p>
+            <p>Participated in building projects including Almuliki.com and Alkadeest.com</p>
           </div>
         </div>
       </section>
@@ -390,7 +448,7 @@
         </div>
 
         <div class="skills-content">
-       <div class="skills-grid">
+          <div class="skills-grid">
             <div class="skill-card animate__animated">
               <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
               <h3>Frontend Development</h3>
@@ -480,6 +538,22 @@
             </div>
           </div>
         </div>
+
+        <div class="languages-section">
+          <div class="section-header">
+            <h3>LANGUAGES</h3>
+          </div>
+          <div class="languages-list">
+            <div class="language-item">
+              <span class="language-name">Arabic</span>
+              <span class="language-level">Native</span>
+            </div>
+            <div class="language-item">
+              <span class="language-name">English</span>
+              <span class="language-level">Very Good</span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- Contact Section -->
@@ -487,12 +561,12 @@
         <div class="contact-left animate__animated animate__fadeInLeft">
           <div class="section-header">
             <span class="section-label">Contact</span>
-            <h2 class="section-title">REACH OUT ME</h2>
+            <h2 class="section-title">GET IN TOUCH</h2>
           </div>
 
           <div class="contact-details">
             <address>
-              Sana'a,
+              Sana'a,<br />
               Yemen
             </address>
 
@@ -515,23 +589,17 @@
 
         <div class="contact-right animate__animated animate__fadeInRight">
           <div class="contact-form-container">
-            <h3>ANY PROJECT?</h3>
+            <h3>HAVE A PROJECT IN MIND?</h3>
 
             <form class="contact-form">
               <div class="form-row">
                 <input type="text" placeholder="NAME" required />
                 <input type="email" placeholder="EMAIL" required />
-
               </div>
-                <input type="text" placeholder="SUBJECT" required />
-
+              <input type="text" placeholder="SUBJECT" required />
               <textarea placeholder="MESSAGE" required></textarea>
 
-              <div class="file-upload">
-                <i class="fas fa-paperclip"></i> ATTACH FILE
-              </div>
-
-              <button type="submit" class="submit-btn">Submit now 🚀</button>
+              <button type="submit" class="submit-btn">Send Message 🚀</button>
             </form>
           </div>
         </div>
